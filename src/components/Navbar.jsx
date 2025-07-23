@@ -19,12 +19,6 @@ const Navbar = () => {
             <span className="sm:block hidden">| Developer Portfolio</span>
           </p>
         </Link>
-        <div className="bg-primary text-white p-2">
-          Testing bg-primary (should be dark blue)
-        </div>
-        <div className="bg-secondary text-white p-2">
-          Testing bg-secondary (should be light purple)
-        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
