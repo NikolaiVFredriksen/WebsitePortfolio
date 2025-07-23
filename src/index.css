@@ -21,6 +21,14 @@
   --background-image-hero-pattern: url("/src/assets/herobg.png");
 }
 
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply sm:py-16 py-6;
+}
+
 * {
   margin: 0;
   padding: 0;
