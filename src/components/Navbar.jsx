@@ -19,13 +19,25 @@ const Navbar = () => {
             <span className="sm:block hidden">| Developer Portfolio</span>
           </p>
         </Link>
+        <div className="bg-primary text-white p-2">
+          Testing bg-primary (should be dark blue)
+        </div>
+        <div className="bg-secondary text-white p-2">
+          Testing bg-secondary (should be light purple)
+        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              }`}
+              }
+              hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => {
+                console.log("Clicked:", link.title); // Add this line
+                console.log("Current active:", active); // Add this line
+                setActive(link.title);
+              }}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
