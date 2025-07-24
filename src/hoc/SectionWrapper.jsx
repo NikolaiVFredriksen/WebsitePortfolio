@@ -11,7 +11,7 @@ const SectionWrapper = (Component, idName) =>
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className="!px-6 !py-10 sm:!px-16 sm:!py-16 max-w-7xl mx-auto relative z-0"
+        className="!px-6 !py-10 sm:!px-16 sm:!py-16 !mt-20 !max-w-7xl !mx-auto !relative !z-0"
         id={idName}
       >
         <Component />

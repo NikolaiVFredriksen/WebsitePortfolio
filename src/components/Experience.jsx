@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const Experience = () => {
   return (
@@ -14,4 +15,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default SectionWrapper(Experience, "experience");
