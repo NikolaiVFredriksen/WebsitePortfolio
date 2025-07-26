@@ -172,7 +172,7 @@ const experiences = [
     company_name: "Digg Pizza AS",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "August 2022 - Present",
+    date: "August 2022 - Nå",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
