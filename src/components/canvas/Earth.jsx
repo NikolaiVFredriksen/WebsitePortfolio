@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+
+import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  return (
-    <div>Earth</div>
-  )
-}
+  return <div>Earth</div>;
+};
 
-export default Earth
+const EarthCanvas = () => {
+  return (
+    <Canvas
+      shadows
+      frameloop="demand"
+      gl={{ preserveDrawingBuffer: true }}
+      camera={{}}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls
+          enableZoom={false}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+        />
+      </Suspense>
+    </Canvas>
+  );
+};
+
+export default EarthCanvas;
