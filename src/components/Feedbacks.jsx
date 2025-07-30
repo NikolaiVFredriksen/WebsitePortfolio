@@ -49,10 +49,10 @@ const Feedbacks = () => {
       <div className="!bg-tertiary !rounded-2xl !px-6 !py-10 sm:!px-16 sm:!py-16 !min-h-[300px]">
         <motion.div variants={textVariant()}>
           <p className="!text-secondary !text-[14px] !uppercase !tracking-wider">
-            What others say
+            Hva andre sier
           </p>
           <h2 className="!text-white !font-black !text-[60px] !leading-tight">
-            Testimonials.
+            Tilbakemeldinger.
           </h2>
         </motion.div>
       </div>
