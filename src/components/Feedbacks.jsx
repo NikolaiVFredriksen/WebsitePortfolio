@@ -51,7 +51,7 @@ const Feedbacks = () => {
           <p className="!text-secondary !text-[14px] !uppercase !tracking-wider">
             Hva andre sier
           </p>
-          <h2 className="!text-white !font-black !text-[60px] !leading-tight">
+          <h2 className="!text-white !font-black !text-[50px] !leading-tight">
             Tilbakemeldinger.
           </h2>
         </motion.div>
