@@ -38,19 +38,22 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introduksjon</p>
+        <h2 className={styles.sectionHeadText}>Oversikt.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Jeg lager løsninger som fungerer – både for brukerne og for deg som eier
+        prosjektet. Med erfaring i TypeScript, JavaScript, React, Node.js og
+        Three.js bygger jeg apper og nettsteder som er raske, skalerbare og
+        enkle å bruke. Jeg liker å jobbe tett med kunder for å finne ut hva som
+        faktisk trengs, og levere noe som både ser bra ut og holder teknisk.
+        Enten det er et lite prosjekt eller en større applikasjon, sørger jeg
+        for at vi beveger oss raskt fra idé til ferdig løsning – uten unødvendig
+        kompliserte prosesser.
       </motion.p>
 
       <div className="!mt-20 flex flex-wrap gap-10">

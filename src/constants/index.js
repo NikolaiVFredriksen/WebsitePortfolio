@@ -25,36 +25,42 @@ import {
   threejs,
 } from "../assets";
 
+import upwork from "../assets/company/upwork.png";
+import digg from "../assets/company/digg.png";
+import inxight from "../assets/company/inxight.png";
+import experis from "../assets/company/experis.png";
+import kristiania from "../assets/company/kristiania.png";
+
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Om meg",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Prosjekter",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Kontakt",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Webutvikler",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Native Utvikler",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Utvikler",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Innholdsprodusent",
     icon: creator,
   },
 ];
@@ -118,8 +124,8 @@ const experiences = [
   {
     title: "Bachelor, Frontend- og mobilutvikling",
     company_name: "Høyskolen Kristiania",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: kristiania,
+    iconBg: "#E6DEDD",
     date: "August 2020 - Juni 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -131,7 +137,7 @@ const experiences = [
   {
     title: "Freelance",
     company_name: "Upwork",
-    icon: tesla,
+    icon: upwork,
     iconBg: "#E6DEDD",
     date: "Juli 2022 - November 2023",
     points: [
@@ -144,7 +150,7 @@ const experiences = [
   {
     title: "Fullstack-utvikler",
     company_name: "InXight AS",
-    icon: tesla,
+    icon: inxight,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Mai 2023",
     points: [
@@ -157,8 +163,8 @@ const experiences = [
   {
     title: "Fullstack-utvikler",
     company_name: "Experis Academy",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: experis,
+    iconBg: "#E6DEDD",
     date: "August 2023 - November 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -170,7 +176,7 @@ const experiences = [
   {
     title: "Medarbeider",
     company_name: "Digg Pizza AS",
-    icon: meta,
+    icon: digg,
     iconBg: "#E6DEDD",
     date: "August 2022 - Nå",
     points: [

@@ -7,10 +7,6 @@ import { EarthCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { slideIn } from "../utils/motion";
 
-//template_xo6ccnk
-//service_jdx7cps
-//4q7Xr_359niDpzzuJ
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -75,10 +71,10 @@ const Contact = () => {
         className="!flex-[0.75] !bg-black-100 !p-8 !rounded-2xl"
       >
         <p className="!text-secondary !text-[14px] !uppercase !tracking-wider">
-          Get in touch
+          La oss sette i gang!
         </p>
         <h3 className="!text-white !font-black !text-[60px] !leading-tight">
-          Contact.
+          Kontakt.
         </h3>
 
         <form
@@ -87,35 +83,35 @@ const Contact = () => {
           className="!mt-12 !flex !flex-col !gap-8"
         >
           <label className="!flex !flex-col">
-            <span className="!text-white !font-medium !mb-4">Your Name</span>
+            <span className="!text-white !font-medium !mb-4">Ditt navn</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder="Hva heter du?"
               className="!bg-tertiary !py-4 !px-6 placeholder:!text-secondary !text-white !rounded-lg !outline-none !border-none !font-medium"
             />
           </label>
           <label className="!flex !flex-col">
-            <span className="!text-white !font-medium !mb-4">Your email</span>
+            <span className="!text-white !font-medium !mb-4">Din e-post</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Hva er e-postadressen din?"
               className="!bg-tertiary !py-4 !px-6 placeholder:!text-secondary !text-white !rounded-lg !outline-none !border-none !font-medium"
             />
           </label>
           <label className="!flex !flex-col">
-            <span className="!text-white !font-medium !mb-4">Your Message</span>
+            <span className="!text-white !font-medium !mb-4">Din melding</span>
             <textarea
               rows={7}
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="Hva vil du snakke eller spørre om?"
               className="!bg-tertiary !py-4 !px-6 placeholder:!text-secondary !text-white !rounded-lg !outline-none !border-none !font-medium"
             />
           </label>
