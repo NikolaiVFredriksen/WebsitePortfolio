@@ -25,7 +25,18 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <img
+          src="/headshot.jpg"
+          alt="headshot"
+          className="
+    w-[300px] h-[300px]
+    sm:w-[350px] sm:h-[350px]
+    md:w-[400px] md:h-[400px]
+    rounded-full object-cover shadow-xl ring-2 ring-white/10
+  "
+        />
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
