@@ -81,10 +81,10 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className="!text-secondary !text-[14px] !uppercase !tracking-wider">
+        <p className="!text-black-100 !text-[14px] !uppercase !tracking-wider">
           Mitt arbeid
         </p>
-        <h2 className="!text-white !font-black !text-[60px] !leading-tight">
+        <h2 className="!text-black-100 !font-black !text-[60px] !leading-tight">
           Prosjekter.
         </h2>
       </motion.div>
@@ -92,7 +92,7 @@ const Works = () => {
       <div className="!w-full !flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="!mt-3 text-secondary !text-[17px] !max-w-3xl !leading-[30px]"
+          className="!mt-3 !text-black-100 !text-[17px] !max-w-3xl !leading-[30px]"
         >
           Prosjektene nedenfor viser hva jeg kan. Hvert prosjekt er kort
           beskrevet, med lenker til kode og demoer. De viser hvordan jeg jobber
