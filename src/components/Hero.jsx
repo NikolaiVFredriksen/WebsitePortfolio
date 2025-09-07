@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { github } from "../assets";
+import { linkedin } from "../assets";
 
 const Hero = () => {
   return (
@@ -25,13 +26,19 @@ const Hero = () => {
             kode
           </p>
 
-          <div className="flex flex-row justify-center gap-6 w-1/3 !mt-12 !ml-20">
-            <div className="bg-black-100 !p-5 rounded-full w-16">
+          <div className="flex flex-row justify-center gap-6 w-1/3 !mt-15 !ml-25">
+            <div className="bg-black-100 !p-4 rounded-full w-16 h-16">
               <img src={github} alt="github" className=" object-contain" />
             </div>
-            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
-            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
-            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
+            <div className="bg-black-100 !p-4 rounded-full w-16">
+              <img src={linkedin} alt="linkedin" className=" object-contain" />
+            </div>
+            <div className="bg-black-100 !p-4 rounded-full w-16 h-16">
+              <img src={github} alt="github" className=" object-contain" />
+            </div>
+            <div className="bg-black-100 !p-4 rounded-full w-16">
+              <img src={linkedin} alt="linkedin" className=" object-contain" />
+            </div>
           </div>
         </div>
       </div>
@@ -44,10 +51,10 @@ const Hero = () => {
         />
       </div>
 
-      <div className=" w-full max-w-md flex justify-center items-center !ml-15">
+      <div className="absolute xs:bottom-25 w-full flex justify-start items-center !ml-77">
         <a
           href="#about"
-          className="absolute top-[450px] left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer "
+          className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer "
         >
           Mer om meg
           <motion.div
@@ -69,22 +76,6 @@ const Hero = () => {
               />
             </svg>
           </motion.div>
-        </a>
-      </div>
-
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{ y: [0, 24, 0] }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
         </a>
       </div>
     </section>
