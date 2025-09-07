@@ -44,7 +44,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-black-100 text-[17px] max-w-3xl leading-[30px]"
       >
         Jeg lager løsninger som fungerer – både for brukerne og for deg som eier
         prosjektet. Med erfaring i TypeScript, JavaScript, React, Node.js og

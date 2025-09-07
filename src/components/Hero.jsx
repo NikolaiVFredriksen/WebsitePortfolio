@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { github } from "../assets";
 
 const Hero = () => {
   return (
@@ -23,6 +24,15 @@ const Hero = () => {
             Fullstack-utvikler med fokus på god brukeropplevelse og pålitelig
             kode
           </p>
+
+          <div className="flex flex-row justify-center gap-6 w-1/3 !mt-12 !ml-20">
+            <div className="bg-black-100 !p-5 rounded-full w-16">
+              <img src={github} alt="github" className=" object-contain" />
+            </div>
+            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
+            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
+            <div className="bg-black-100 !p-5 rounded-full w-16">He</div>
+          </div>
         </div>
       </div>
 
