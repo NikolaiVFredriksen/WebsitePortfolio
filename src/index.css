@@ -43,6 +43,15 @@
   color-scheme: dark;
 }
 
+.vertical-timeline::before {
+  background: #a23b32 !important; /* eller ønsket farge */
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 3px #8b3a3a !important; /* farge og tykkelse på ringen */
+  border: none !important; /* fjern eventuell eksisterende border */
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
