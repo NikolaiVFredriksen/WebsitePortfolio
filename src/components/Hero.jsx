@@ -26,7 +26,7 @@ const Hero = () => {
             kode
           </p>
 
-          <div className="flex flex-row justify-center gap-6 w-1/3 !mt-15 !ml-25">
+          <div className="hidden sm:flex flex-row justify-center gap-6 w-1/3 !mt-15 !ml-25 ">
             <div className="bg-black-100 !p-4 rounded-full w-16 h-16">
               <img src={github} alt="github" className=" object-contain" />
             </div>
