@@ -26,19 +26,21 @@ const Hero = () => {
             kode
           </p>
 
-          <div className="hidden sm:flex flex-row justify-center gap-6 w-1/3 !mt-15 !ml-25 ">
-            <div className="bg-black-100 !p-4 rounded-full w-16 h-16">
-              <img src={github} alt="github" className=" object-contain" />
-            </div>
-            <div className="bg-black-100 !p-4 rounded-full w-16">
-              <img src={linkedin} alt="linkedin" className=" object-contain" />
-            </div>
-            <div className="bg-black-100 !p-4 rounded-full w-16 h-16">
-              <img src={github} alt="github" className=" object-contain" />
-            </div>
-            <div className="bg-black-100 !p-4 rounded-full w-16">
-              <img src={linkedin} alt="linkedin" className=" object-contain" />
-            </div>
+          <div className="hidden sm:flex flex-row justify-center gap-5 w-1/3 !mt-12 !ml-25 ">
+            <a href="https://github.com/NikolaiVFredriksen">
+              <div className="bg-black-100 !p-4 rounded-full w-16 h-16 hover:scale-110  transform transition">
+                <img src={github} alt="github" className=" object-contain" />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/nikolai-fredriksen/">
+              <div className="bg-black-100 !p-4 rounded-full w-16 h-16 hover:scale-110  transform transition">
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className=" object-contain"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>

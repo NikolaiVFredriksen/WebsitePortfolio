@@ -15,11 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  movievault,
   jobit,
   tripguide,
   threejs,
@@ -132,10 +128,10 @@ const experiences = [
     iconBg: "#f6f0e9",
     date: "August 2020 - Juni 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Solid erfaring med moderne web- og mobilutvikling (React, Swift, Kotlin/Java)",
+      "God forståelse av fullstack-utvikling, databaser og skyløsninger",
+      "Sterk kompetanse i interaksjonsdesign og brukervennlige, responsive løsninger",
+      "Vant til smidige prosesser, teamarbeid og profesjonelle utviklingsverktøy",
     ],
   },
   {
@@ -145,10 +141,9 @@ const experiences = [
     iconBg: "#f6f0e9",
     date: "Juli 2022 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leverte tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
+      "Utførte oversettelser av nettsider, apper, e-bøker og spill",
+      "Skapte langvarige kundeforhold gjennom pålitelighet, profesjonalitet og god kommunikasjon",
     ],
   },
   {
@@ -218,16 +213,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MovieVault",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Nettapplikasjon som lar brukere søke opp og bla gjennom alle filmer som finnes. Integrerer et film-API med Appwrite, og lagrer tidligere søk i databasen. Dette gjør det mulig å vise en oppdatert «trending»-oversikt i sanntid, basert på hvilke filmer som søkes på mest.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "appwrite",
         color: "green-text-gradient",
       },
       {
@@ -235,50 +230,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: movievault,
+    source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
   },
 ];
 
