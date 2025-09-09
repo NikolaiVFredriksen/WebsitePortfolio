@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import movievault from "./movievault.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -41,6 +42,7 @@ export {
   menu,
   close,
   css,
+  movievault,
   docker,
   figma,
   git,
