@@ -132,10 +132,10 @@ const experiences = [
     iconBg: "#f6f0e9",
     date: "August 2020 - Juni 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Solid erfaring med moderne web- og mobilutvikling (React, Swift, Kotlin/Java)",
+      "God forståelse av fullstack-utvikling, databaser og skyløsninger",
+      "Sterk kompetanse i interaksjonsdesign og brukervennlige, responsive løsninger",
+      "Vant til smidige prosesser, teamarbeid og profesjonelle utviklingsverktøy",
     ],
   },
   {
@@ -145,10 +145,9 @@ const experiences = [
     iconBg: "#f6f0e9",
     date: "Juli 2022 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leverte tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
+      "Utførte oversettelser av nettsider, apper, e-bøker og spill",
+      "Skapte langvarige kundeforhold gjennom pålitelighet, profesjonalitet og god kommunikasjon",
     ],
   },
   {
