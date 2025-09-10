@@ -82,39 +82,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-//animation
-{
-  /* <div className="!mt-15 w-full max-w-md flex justify-center items-center !ml-15">
-            <a
-              href="#about"
-              className="!p-5  bg-[#8B3A3A] text-white rounded-lg shadow-md hover:bg-[#a44a4a] transition flex flex-col justify-center items-center"
-            >
-              Mer om meg
-              <motion.div
-                animate={{ y: [0, 5, 0] }}
-                transition={{
-                  duration: 1.8,
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-                style={{ display: "block", margin: "8px auto 0 auto" }}
-              >
-                <svg width="20" height="20" viewBox="0 0 25 25" fill="none">
-                  <path
-                    d="M12 4v16m0 0l-6-6m6 6l6-6"
-                    stroke="#fff"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </motion.div>
-            </a>
-          </div> */
-}
-
-//headshot
-{
-  /*  */
-}
