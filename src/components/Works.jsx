@@ -93,7 +93,7 @@ const Works = () => {
           ))}
         </div>
 
-        <div className="flex flex-col justify-center items-start min-w-[260px] max-w-xs w-full p-6 ml-8  rounded-2xl ">
+        <div className="flex flex-col justify-end items-start min-w-[260px] max-w-xs w-full p-6 ml-8  rounded-2xl ">
           <span className="text-[#8B3A3A] font-semibold text-lg mb-1">
             Mer prosjekter kommer...
           </span>
