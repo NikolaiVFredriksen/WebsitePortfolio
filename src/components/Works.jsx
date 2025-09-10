@@ -77,7 +77,7 @@ const Works = () => {
       <div className="!w-full !flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="!mt-3 !text-black-100 !text-[17px] !max-w-6xl !leading-[30px]"
+          className="!mt-3 !text-black-100 !text-[17px] !max-w-5xl !leading-[30px]"
         >
           Prosjektene nedenfor viser hva jeg kan. Hvert prosjekt er kort
           beskrevet, med lenker til kode og demoer. De viser hvordan jeg jobber

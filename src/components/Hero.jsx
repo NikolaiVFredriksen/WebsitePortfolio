@@ -42,50 +42,48 @@ const Hero = () => {
               </div>
             </a>
           </div>
+          <div className="w-1/2 !ml-4 flex flex-col justify-center items-center !mt-60 ">
+            <a
+              href="#about"
+              className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer "
+            >
+              Mer om meg
+              <motion.div
+                animate={{ y: [0, 5, 0] }}
+                transition={{
+                  duration: 1.8,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+                style={{ display: "block", margin: "8px auto 0 auto" }}
+              >
+                <svg width="20" height="20" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M12 4v16m0 0l-6-6m6 6l6-6"
+                    stroke="#fff"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </motion.div>
+            </a>
+          </div>
         </div>
       </div>
-
-      <div className="absolute bottom-0 left-0 flex items-end justify-end w-full h-auto ">
-        <img
-          src="/headshot.png"
-          alt="headshot"
-          className="2xl:w-[1300px] xl:w-[1000px] lg:w-[800px] md:w-[700px] sm:w-[700px] xs:w-[700px] w-[150px] max-w-[1300px] h-auto rounded-4xl object-cover transition-all duration-300 ease-in-out"
-        />
-      </div>
-
-      <div className="absolute xs:bottom-25 w-full flex justify-start items-center !ml-77">
-        <a
-          href="#about"
-          className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer "
-        >
-          Mer om meg
-          <motion.div
-            animate={{ y: [0, 5, 0] }}
-            transition={{
-              duration: 1.8,
-              repeat: Infinity,
-              repeatType: "loop",
-            }}
-            style={{ display: "block", margin: "8px auto 0 auto" }}
-          >
-            <svg width="20" height="20" viewBox="0 0 25 25" fill="none">
-              <path
-                d="M12 4v16m0 0l-6-6m6 6l6-6"
-                stroke="#fff"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </motion.div>
-        </a>
-      </div>
+      <img
+        src="/headshot.png"
+        alt="headshot"
+        className="absolute bottom-0 right-0 2xl:w-[1300px] xl:w-[1000px] lg:w-[800px] md:w-[700px] sm:w-[700px] xs:w-[700px] w-[150px] max-w-[1300px] h-auto rounded-4xl object-cover transition-all duration-300 ease-in-out"
+        style={{ zIndex: 1 }}
+      />
     </section>
   );
 };
 
 export default Hero;
 
+//animation
 {
   /* <div className="!mt-15 w-full max-w-md flex justify-center items-center !ml-15">
             <a
@@ -114,4 +112,9 @@ export default Hero;
               </motion.div>
             </a>
           </div> */
+}
+
+//headshot
+{
+  /*  */
 }
