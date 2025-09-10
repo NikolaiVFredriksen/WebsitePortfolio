@@ -229,6 +229,10 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
     ],
     image: movievault,
     source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
