@@ -77,7 +77,7 @@ const Works = () => {
       <div className="!w-full !flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="!mt-3 !text-black-100 !text-[17px] !max-w-3xl !leading-[30px]"
+          className="!mt-3 !text-black-100 !text-[17px] !max-w-5xl !leading-[30px]"
         >
           Prosjektene nedenfor viser hva jeg kan. Hvert prosjekt er kort
           beskrevet, med lenker til kode og demoer. De viser hvordan jeg jobber
@@ -86,10 +86,21 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="!mt-20 !flex !flex-wrap !gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      <div className="flex flex-row flex-wrap gap-10 !mt-20 items-stretch">
+        <div className="flex flex-wrap gap-7 flex-1 min-w-[300px]">
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
+
+        <div className="flex flex-col justify-center items-start min-w-[260px] max-w-xs w-full p-6 ml-8  rounded-2xl ">
+          <span className="text-[#8B3A3A] font-semibold text-lg mb-1">
+            Mer prosjekter kommer...
+          </span>
+          <span className="text-xs text-black-100 opacity-60">
+            Følg med for oppdateringer!
+          </span>
+        </div>
       </div>
     </>
   );
