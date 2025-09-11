@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
             </a>
           </div>
-          <div className="w-1/2 !ml-4 flex flex-col justify-center items-center !mt-60 ">
+          <div className="w-1/2 !ml-15 sm:!ml-4 flex flex-col justify-center items-center !mt-10 sm:!mt-60 ">
             <a
               href="#about"
               className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer"
@@ -76,7 +76,7 @@ const Hero = () => {
       <img
         src="/headshot.png"
         alt="headshot"
-        className="absolute bottom-0 right-0  rounded-4xl object-cover transition-all duration-300 ease-in-out
+        className="absolute bottom-0 right-0  object-cover transition-all duration-300 ease-in-out
         w-3xl h-[500px] sm:h-auto"
         style={{ zIndex: 1 }}
       />
