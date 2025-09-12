@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto ">
       <div
-        className={`padding-x absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 !mt-10`}
+        className={`padding-x absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 !mt-10 `}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#8B3A3A]" />
@@ -21,7 +21,9 @@ const Hero = () => {
             Hei, <span className="text-[#8B3A3A]">Nikolai</span> her
           </h1>
 
-          <p className={`${styles.heroSubText} mt-2 text-black-100 w-3/4`}>
+          <p
+            className={`${styles.heroSubText} mt-2 text-black-100 sm:w-3/4 !sm:w-full`}
+          >
             Fullstack-utvikler med fokus på god brukeropplevelse og pålitelig
             kode
           </p>
@@ -42,10 +44,10 @@ const Hero = () => {
               </div>
             </a>
           </div>
-          <div className="w-1/2 !ml-4 flex flex-col justify-center items-center !mt-60 ">
+          <div className="w-1/2 !ml-15 sm:!ml-4 flex flex-col justify-center items-center !mt-10 sm:!mt-60 ">
             <a
               href="#about"
-              className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer "
+              className=" left-2/12 !p-5 bg-[#8B3A3A] text-white rounded-lg shadow-md hover:scale-105  transform transition flex flex-col justify-center items-center cursor-pointer"
             >
               Mer om meg
               <motion.div
@@ -74,7 +76,8 @@ const Hero = () => {
       <img
         src="/headshot.png"
         alt="headshot"
-        className="absolute bottom-0 right-0 2xl:w-[1300px] xl:w-[1000px] lg:w-[800px] md:w-[700px] sm:w-[700px] xs:w-[700px] w-[150px] max-w-[1300px] h-auto rounded-4xl object-cover transition-all duration-300 ease-in-out"
+        className="absolute bottom-0 md:right-[-120px]  object-cover transition-all duration-300 ease-in-out 
+        w-2xl lg:w-[900px] xl:w-[1000px] h-[500px] sm:h-auto"
         style={{ zIndex: 1 }}
       />
     </section>

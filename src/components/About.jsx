@@ -7,7 +7,7 @@ import { Tilt } from "react-tilt";
 import SectionWrapper from "../hoc/SectionWrapper";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[250px] w-full hidden sm:block">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full rounded-[20px]"
@@ -56,7 +56,7 @@ const About = () => {
         kompliserte prosesser.
       </motion.p>
 
-      <div className="!mt-20 flex flex-wrap gap-10">
+      <div className="sm:!mt-20 flex flex-wrap gap-10 sm:columns-2 ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

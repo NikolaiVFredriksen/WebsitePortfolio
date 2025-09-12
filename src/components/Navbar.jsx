@@ -11,8 +11,16 @@ const Navbar = () => {
   return (
     <nav className="padding-x w-full flex items-center py-5 fixed h-15 top-0 z-20 bg-tertiary">
       <div className="w-full flex justify-between items-center  mx-auto">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+        <Link
+          to="/"
+          className="flex items-center gap-3"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          <img
+            src={logo}
+            alt="logo"
+            className="w-10 h-10 object-contain border-1 rounded-sm"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Nikolai Villanueva Fredriksen{" "}
           </p>
