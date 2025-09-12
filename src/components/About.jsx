@@ -61,10 +61,6 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-
-      <div className="sm:hidden flex flex-row items-end">
-        Fullstack, react, web, inhholdsprodusent
-      </div>
     </>
   );
 };
