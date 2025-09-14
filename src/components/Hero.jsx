@@ -77,7 +77,7 @@ const Hero = () => {
         src="/headshot.png"
         alt="headshot"
         className="absolute bottom-0 md:right-[-120px]  object-cover transition-all duration-300 ease-in-out 
-        w-2xl lg:w-[900px] xl:w-[1000px] h-[500px] sm:h-auto"
+        w-2xl sm:w-[700px] lg:w-[900px] xl:w-[1050px] 2xl:w-[1200px] h-[450px] sm:h-auto"
         style={{ zIndex: 1 }}
       />
     </section>
