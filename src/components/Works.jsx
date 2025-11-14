@@ -79,10 +79,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="!mt-3 !text-black-100 !text-[17px] !max-w-5xl !leading-[30px]"
         >
-          Prosjektene nedenfor viser hva jeg kan. Hvert prosjekt er kort
-          beskrevet, med lenker til kode og demoer. De viser hvordan jeg jobber
-          med ulike teknologier, løser problemer og bygger ting fra idé til
-          ferdig løsning.
+          Prosjektene nedenfor viser hva jeg jobber med som innholdsprodusent –
+          videoer, kreative prosesser, musikkfokuserte klipp og
+          samarbeidsprosjekter med merkevarer. De viser hvordan jeg jobber med
+          historieflyt, konsept, komposisjon, lyd og videoredigering for å skape
+          innhold som både føles godt og fremstår profesjonelt.
         </motion.p>
       </div>
 

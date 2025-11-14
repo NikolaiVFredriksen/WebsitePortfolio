@@ -31,6 +31,12 @@ import carrent from "./carrent.png";
 import movievault from "./movievault.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import videoediting from "./videoediting.png";
+import brainstorming from "./brainstorming.png";
+import ux from "./ux.png";
+import youtube from "./youtube.png";
+import saramonic from "./saramonic.png";
+import nki from "./nki.png";
 
 export {
   logo,
@@ -63,4 +69,10 @@ export {
   jobit,
   tripguide,
   linkedin,
+  videoediting,
+  brainstorming,
+  ux,
+  youtube,
+  saramonic,
+  nki,
 };

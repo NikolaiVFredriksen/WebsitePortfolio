@@ -24,8 +24,8 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-black-100 sm:w-3/4 !sm:w-full`}
           >
-            Fullstack-utvikler med fokus på god brukeropplevelse og pålitelig
-            kode
+            Innholdsprodusent med fokus på ekte historier, klar rytme og visuelt
+            uttrykk som føles nært.
           </p>
 
           <div className="hidden sm:flex flex-row justify-center gap-5 w-1/3 !mt-12 !ml-25 ">

@@ -19,6 +19,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  videoediting,
+  brainstorming,
+  ux,
+  youtube,
+  saramonic,
+  nki,
 } from "../assets";
 
 import upwork from "../assets/company/upwork.png";
@@ -48,20 +54,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Webutvikler",
-    icon: web,
-  },
-  {
-    title: "React Native Utvikler",
-    icon: mobile,
-  },
-  {
-    title: "Backend Utvikler",
-    icon: backend,
-  },
-  {
-    title: "Innholdsprodusent",
+    title: "Innholdsproduksjon",
     icon: creator,
+  },
+  {
+    title: "Videoredigering",
+    icon: videoediting,
+  },
+  {
+    title: "Konsept & idéutvikling",
+    icon: brainstorming,
+  },
+  {
+    title: "Webutvikling",
+    icon: ux,
   },
 ];
 
@@ -122,16 +128,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Bachelor, Frontend- og mobilutvikling",
-    company_name: "Høyskolen Kristiania",
-    icon: kristiania,
+    title: "Kreatør",
+    company_name: "YouTube",
+    icon: youtube,
     iconBg: "#f6f0e9",
-    date: "August 2020 - Juni 2023",
+    date: "Januar 2025 - Nå",
     points: [
-      "Solid erfaring med moderne web- og mobilutvikling (React, Swift, Kotlin/Java)",
-      "God forståelse av fullstack-utvikling, databaser og skyløsninger",
-      "Sterk kompetanse i interaksjonsdesign og brukervennlige, responsive løsninger",
-      "Vant til smidige prosesser, teamarbeid og profesjonelle utviklingsverktøy",
+      "Produserer visuelt gjennomtenkte videoer med fokus på musikk, rytme og historiefortelling",
+      "Planlegger, filmer og redigerer alt innhold selv – fra idé til ferdig publisering",
+      "Eksperimenterer med kreative formater og utvikler en personlig visuell stil inspirert av dokumentar og hverdagsfilm",
+      "Bygger et publikum gjennom autentisk uttrykk og konsistent innholdsstrategi",
     ],
   },
   {
@@ -139,23 +145,23 @@ const experiences = [
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#f6f0e9",
-    date: "Juli 2022 - November 2023",
+    date: "Juli 2022 - Nå",
     points: [
-      "Leverte tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
-      "Utførte oversettelser av nettsider, apper, e-bøker og spill",
+      "Leverer tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
+      "Var med på norsk launch av Proxify.io",
       "Skapte langvarige kundeforhold gjennom pålitelighet, profesjonalitet og god kommunikasjon",
     ],
   },
   {
-    title: "Fullstack-utvikler",
-    company_name: "InXight AS",
-    icon: inxight,
+    title: "Medarbeider",
+    company_name: "Digg Pizza AS",
+    icon: digg,
     iconBg: "#f6f0e9",
-    date: "Jan 2023 - Mai 2023",
+    date: "August 2022 - Nå",
     points: [
-      "Utviklet visuell modell/digitalt årshjul for bedriftsstyring i bachelorprosjekt",
-      "Arbeidet med backend og frontend i team av tre studenter",
-      "Erfaring med å jobbe i et profesjonelt miljø og bidra i et større utviklingsteam",
+      "Trives i et hektisk service­miljø med mye kundekontakt",
+      "Bygger ekte relasjoner og bidrar til godt arbeidsmiljø",
+      "Fortsetter å lære å håndtere press og holde hodet kaldt når det koker",
     ],
   },
   {
@@ -171,15 +177,28 @@ const experiences = [
     ],
   },
   {
-    title: "Medarbeider",
-    company_name: "Digg Pizza AS",
-    icon: digg,
+    title: "Fullstack-utvikler",
+    company_name: "InXight AS",
+    icon: inxight,
     iconBg: "#f6f0e9",
-    date: "August 2022 - Nå",
+    date: "Jan 2023 - Mai 2023",
     points: [
-      "Trives i et hektisk service­miljø med mye kundekontakt",
-      "Bygger ekte relasjoner og bidrar til godt arbeidsmiljø",
-      "Fortsetter å lære å håndtere press og holde hodet kaldt når det koker",
+      "Utviklet visuell modell/digitalt årshjul for bedriftsstyring i bachelorprosjekt",
+      "Arbeidet med backend og frontend i team av tre studenter",
+      "Erfaring med å jobbe i et profesjonelt miljø og bidra i et større utviklingsteam",
+    ],
+  },
+  {
+    title: "Bachelor, Frontend- og mobilutvikling",
+    company_name: "Høyskolen Kristiania",
+    icon: kristiania,
+    iconBg: "#f6f0e9",
+    date: "August 2020 - Juni 2023",
+    points: [
+      "Solid erfaring med moderne web- og mobilutvikling (React, Swift, Kotlin/Java)",
+      "God forståelse av fullstack-utvikling, databaser og skyløsninger",
+      "Sterk kompetanse i interaksjonsdesign og brukervennlige, responsive løsninger",
+      "Vant til smidige prosesser, teamarbeid og profesjonelle utviklingsverktøy",
     ],
   },
 ];
@@ -213,28 +232,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MovieVault",
+    name: "Saramonic Air",
     description:
-      "Nettapplikasjon som lar brukere søke opp og bla gjennom alle filmer som finnes. Integrerer et film-API med Appwrite, og lagrer tidligere søk i databasen. Dette gjør det mulig å vise en oppdatert «trending»-oversikt i sanntid, basert på hvilke filmer som søkes på mest.",
+      "En musikkdrevet, visuelt rolig og ærlig test i samarbeid med Saramonic. Videoen kombinerer gitar, vokal og minimalistiske scener for å skape en ekte og nær opplevelse av hvordan mikrofonene presterer i praksis.",
     tags: [
       {
-        name: "react",
+        name: "produkt",
         color: "blue-text-gradient",
       },
       {
-        name: "appwrite",
+        name: "merkevare",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "kort-form",
         color: "pink-text-gradient",
       },
       {
-        name: "api",
+        name: "musikk",
         color: "green-text-gradient",
       },
     ],
-    image: movievault,
+    image: saramonic,
+    source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
+  },
+  {
+    name: "NKI Nettstudier",
+    description:
+      "En liten, humoristisk ‘faux-reklame’ for NKI Nettstudier. Videoen viser humor, tempo og enkel historiefortelling i et kort og konsist format.",
+    tags: [
+      {
+        name: "reklame",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "humor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tempo",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "lang-form",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nki,
     source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
   },
 ];
