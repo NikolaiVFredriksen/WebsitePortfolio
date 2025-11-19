@@ -141,18 +141,6 @@ const experiences = [
     ],
   },
   {
-    title: "Freelance",
-    company_name: "Upwork",
-    icon: upwork,
-    iconBg: "#f6f0e9",
-    date: "Juli 2022 - Nå",
-    points: [
-      "Leverer tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
-      "Var med på norsk launch av Proxify.io",
-      "Skapte langvarige kundeforhold gjennom pålitelighet, profesjonalitet og god kommunikasjon",
-    ],
-  },
-  {
     title: "Medarbeider",
     company_name: "Digg Pizza AS",
     icon: digg,
@@ -162,6 +150,18 @@ const experiences = [
       "Trives i et hektisk service­miljø med mye kundekontakt",
       "Bygger ekte relasjoner og bidrar til godt arbeidsmiljø",
       "Fortsetter å lære å håndtere press og holde hodet kaldt når det koker",
+    ],
+  },
+  {
+    title: "Freelance",
+    company_name: "Upwork",
+    icon: upwork,
+    iconBg: "#f6f0e9",
+    date: "Juli 2022 - Nå",
+    points: [
+      "Leverer tjenester innen bilde- og videoredigering, oversettelse og musikkproduksjon",
+      "Var med på norsk launch av Proxify.io",
+      "Skapte langvarige kundeforhold gjennom pålitelighet, profesjonalitet og god kommunikasjon",
     ],
   },
   {
@@ -254,7 +254,7 @@ const projects = [
       },
     ],
     image: saramonic,
-    source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
+    source_code_link: "https://youtube.com/shorts/dPkWXbj4nLg?feature=share",
   },
   {
     name: "NKI Nettstudier",
@@ -279,7 +279,7 @@ const projects = [
       },
     ],
     image: nki,
-    source_code_link: "https://github.com/NikolaiVFredriksen/MovieApp",
+    source_code_link: "https://vimeo.com/1057032229/6109936082?fl=pl&fe=ti",
   },
 ];
 

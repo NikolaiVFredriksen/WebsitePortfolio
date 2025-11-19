@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <a href="https://movie-app-five-xi-34.vercel.app">
+      <a href={source_code_link}>
         <div className="!bg-tertiary !p-5 !rounded-2xl sm:!w-[360px] !w-full transform transition hover:scale-105">
           <div className="!relative !w-full !h-[230px]">
             <img
@@ -26,19 +26,6 @@ const ProjectCard = ({
               alt="project_image"
               className="!w-full !h-full !object-cover !rounded-2xl"
             />
-
-            <div className="!absolute !inset-0 !flex !justify-end !m-3 card-img_hover ">
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient !w-10 !h-10 !rounded-full !flex !justify-center !items-center !cursor-pointer transform transition hover:scale-115"
-              >
-                <img
-                  src={github}
-                  alt="source code"
-                  className="!w-1/2 !h-1/2 !object-contain "
-                />
-              </div>
-            </div>
           </div>
 
           <div className="!mt-5">
