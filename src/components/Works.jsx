@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <a href={source_code_link}>
-        <div className="!bg-tertiary !p-5 !rounded-2xl sm:!w-[360px] !w-full transform transition hover:scale-105">
+        <div className="!bg-tertiary !p-5 !rounded-2xl sm:!w-[360px] !w-full !h-full transform transition hover:scale-105">
           <div className="!relative !w-full !h-[230px]">
             <img
               src={image}
@@ -77,7 +77,12 @@ const Works = () => {
       <div className="flex flex-row flex-wrap gap-10 !mt-20 items-stretch">
         <div className="flex flex-wrap gap-7 flex-1 min-w-[300px]">
           {projects.map((project, index) => (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
+            <ProjectCard
+              key={`project-${index}`}
+              index={index}
+              {...project}
+              className="flex flex-col h-full"
+            />
           ))}
         </div>
 

@@ -37,6 +37,8 @@ import ux from "./ux.png";
 import youtube from "./youtube.png";
 import saramonic from "./saramonic.png";
 import nki from "./nki.png";
+import portfolio from "./portfolio.png";
+import cv from "./cv.png";
 
 export {
   logo,
@@ -75,4 +77,6 @@ export {
   youtube,
   saramonic,
   nki,
+  cv,
+  portfolio,
 };

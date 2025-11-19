@@ -4,6 +4,8 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { github } from "../assets";
 import { linkedin } from "../assets";
+import { portfolio } from "../assets";
+import { cv } from "../assets";
 
 const Hero = () => {
   return (
@@ -28,14 +30,23 @@ const Hero = () => {
             uttrykk som føles nært.
           </p>
 
-          <div className="hidden sm:flex flex-row justify-center gap-5 w-1/3 !mt-12 !ml-25 ">
+          <div className="hidden sm:flex flex-row justify-center gap-8 w-1/3 !mt-12 !ml-25 ">
             <a href="https://github.com/NikolaiVFredriksen">
-              <div className="bg-black-100 !p-4 rounded-full w-16 h-16 hover:scale-110  transform transition">
-                <img src={github} alt="github" className=" object-contain" />
+              <div className="bg-black-100 !p-4 rounded-full w-18 h-18 hover:scale-110  transform transition">
+                <img src={cv} alt="cv" className=" object-contain" />
               </div>
             </a>
             <a href="https://www.linkedin.com/in/nikolai-fredriksen/">
-              <div className="bg-black-100 !p-4 rounded-full w-16 h-16 hover:scale-110  transform transition">
+              <div className="bg-black-100 !p-4 rounded-full w-18 h-18 hover:scale-110  transform transition">
+                <img
+                  src={portfolio}
+                  alt="portfolio"
+                  className=" object-contain"
+                />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/nikolai-fredriksen/">
+              <div className="bg-black-100 !p-4 rounded-full w-18 h-18 hover:scale-110  transform transition">
                 <img
                   src={linkedin}
                   alt="linkedin"

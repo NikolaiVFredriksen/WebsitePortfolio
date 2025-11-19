@@ -259,7 +259,7 @@ const projects = [
   {
     name: "NKI Nettstudier",
     description:
-      "En liten, humoristisk ‘faux-reklame’ for NKI Nettstudier. Videoen viser humor, tempo og enkel historiefortelling i et kort og konsist format.",
+      "En humoristisk ‘faux-reklame’ for NKI Nettstudier. Videoen viser humor, tempo og enkel historiefortelling i et kort og konsist format.",
     tags: [
       {
         name: "reklame",
