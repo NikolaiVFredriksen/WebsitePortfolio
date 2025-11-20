@@ -31,12 +31,12 @@ const Hero = () => {
           </p>
 
           <div className="hidden sm:flex flex-row justify-center gap-8 w-1/3 !mt-12 !ml-25 ">
-            <a href="https://github.com/NikolaiVFredriksen">
+            <a href="https://www.canva.com/design/DAGo3G3F-OI/6rsOdsOrUrMEPaBJU7NZMA/view?utm_content=DAGo3G3F-OI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf5dbbbd670">
               <div className="bg-black-100 !p-4 rounded-full w-18 h-18 hover:scale-110  transform transition">
                 <img src={cv} alt="cv" className=" object-contain" />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/nikolai-fredriksen/">
+            <a href="https://www.canva.com/design/DAGhbldcWF8/v3i0dtq-UrW_oHCqEpqjPg/view?utm_content=DAGhbldcWF8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h64d8a5d164">
               <div className="bg-black-100 !p-4 rounded-full w-18 h-18 hover:scale-110  transform transition">
                 <img
                   src={portfolio}
