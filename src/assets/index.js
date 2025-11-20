@@ -40,6 +40,19 @@ import nki from "./nki.png";
 import portfolio from "./portfolio.png";
 import cv from "./cv.png";
 
+import premierepro from "./premierepro.png";
+import davinci from "./davinci.png";
+import capcut from "./capcut.png";
+import logicpro from "./logicpro.png";
+import sonyalpha from "./sonyalpha.png";
+import photoshop from "./photoshop.png";
+import lightroom from "./lightroom.png";
+import canva from "./canva.png";
+import tiktok from "./tiktok.png";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import notion from "./notion.png";
+
 export {
   logo,
   backend,
@@ -79,4 +92,16 @@ export {
   nki,
   cv,
   portfolio,
+  premierepro,
+  davinci,
+  capcut,
+  logicpro,
+  sonyalpha,
+  photoshop,
+  lightroom,
+  canva,
+  tiktok,
+  instagram,
+  facebook,
+  notion,
 };

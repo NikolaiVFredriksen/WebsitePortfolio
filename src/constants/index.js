@@ -25,6 +25,18 @@ import {
   youtube,
   saramonic,
   nki,
+  premierepro,
+  davinci,
+  capcut,
+  logicpro,
+  sonyalpha,
+  photoshop,
+  lightroom,
+  canva,
+  tiktok,
+  instagram,
+  facebook,
+  notion,
 } from "../assets";
 
 import upwork from "../assets/company/upwork.png";
@@ -72,57 +84,66 @@ const services = [
 ];
 
 const technologies = [
+  // Video & redigering
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Premiere Pro",
+    icon: premierepro,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "DaVinci Resolve",
+    icon: davinci,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "CapCut",
+    icon: capcut,
+  },
+
+  // Kamera / gear
+  {
+    name: "Sony Alpha Series",
+    icon: sonyalpha,
+  },
+
+  // Audio
+  {
+    name: "Logic Pro X",
+    icon: logicpro,
+  },
+
+  // Design & bildebehandling
+  {
+    name: "Photoshop",
+    icon: photoshop,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Lightroom",
+    icon: lightroom,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Canva",
+    icon: canva,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
+
+  // Sosiale medier
   {
-    name: "docker",
-    icon: docker,
+    name: "YouTube",
+    icon: youtube,
+  },
+  {
+    name: "TikTok",
+    icon: tiktok,
+  },
+  {
+    name: "Instagram",
+    icon: instagram,
+  },
+  {
+    name: "Facebook",
+    icon: facebook,
   },
 ];
 
