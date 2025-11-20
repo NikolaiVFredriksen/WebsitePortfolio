@@ -64,7 +64,7 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} `}>
           Hva jeg har gjort så langt
         </p>
-        <h2 className={`${styles.sectionHeadText} `}>Arbeidserfaring.</h2>
+        <h2 className={`${styles.sectionHeadText} `}>Erfaring.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

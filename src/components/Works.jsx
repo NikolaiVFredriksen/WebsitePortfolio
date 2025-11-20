@@ -18,27 +18,14 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <a href="https://movie-app-five-xi-34.vercel.app">
-        <div className="!bg-tertiary !p-5 !rounded-2xl sm:!w-[360px] !w-full transform transition hover:scale-105">
+      <a href={source_code_link}>
+        <div className="!bg-tertiary !p-5 !rounded-2xl sm:!w-[360px] !w-full !h-full transform transition hover:scale-105">
           <div className="!relative !w-full !h-[230px]">
             <img
               src={image}
               alt="project_image"
               className="!w-full !h-full !object-cover !rounded-2xl"
             />
-
-            <div className="!absolute !inset-0 !flex !justify-end !m-3 card-img_hover ">
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient !w-10 !h-10 !rounded-full !flex !justify-center !items-center !cursor-pointer transform transition hover:scale-115"
-              >
-                <img
-                  src={github}
-                  alt="source code"
-                  className="!w-1/2 !h-1/2 !object-contain "
-                />
-              </div>
-            </div>
           </div>
 
           <div className="!mt-5">
@@ -79,17 +66,23 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="!mt-3 !text-black-100 !text-[17px] !max-w-5xl !leading-[30px]"
         >
-          Prosjektene nedenfor viser hva jeg kan. Hvert prosjekt er kort
-          beskrevet, med lenker til kode og demoer. De viser hvordan jeg jobber
-          med ulike teknologier, løser problemer og bygger ting fra idé til
-          ferdig løsning.
+          Prosjektene nedenfor viser hva jeg jobber med som innholdsprodusent –
+          videoer, kreative prosesser, musikkfokuserte klipp og
+          samarbeidsprosjekter med merkevarer. De viser hvordan jeg jobber med
+          historieflyt, konsept, komposisjon, lyd og videoredigering for å skape
+          innhold som både føles godt og fremstår profesjonelt.
         </motion.p>
       </div>
 
       <div className="flex flex-row flex-wrap gap-10 !mt-20 items-stretch">
         <div className="flex flex-wrap gap-7 flex-1 min-w-[300px]">
           {projects.map((project, index) => (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
+            <ProjectCard
+              key={`project-${index}`}
+              index={index}
+              {...project}
+              className="flex flex-col h-full"
+            />
           ))}
         </div>
 

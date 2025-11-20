@@ -31,6 +31,27 @@ import carrent from "./carrent.png";
 import movievault from "./movievault.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import videoediting from "./videoediting.png";
+import brainstorming from "./brainstorming.png";
+import ux from "./ux.png";
+import youtube from "./youtube.png";
+import saramonic from "./saramonic.png";
+import nki from "./nki.png";
+import portfolio from "./portfolio.png";
+import cv from "./cv.png";
+
+import premierepro from "./premierepro.png";
+import davinci from "./davinci.png";
+import capcut from "./capcut.png";
+import logicpro from "./logicpro.png";
+import sonyalpha from "./sonyalpha.png";
+import photoshop from "./photoshop.png";
+import lightroom from "./lightroom.png";
+import canva from "./canva.png";
+import tiktok from "./tiktok.png";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import notion from "./notion.png";
 
 export {
   logo,
@@ -63,4 +84,24 @@ export {
   jobit,
   tripguide,
   linkedin,
+  videoediting,
+  brainstorming,
+  ux,
+  youtube,
+  saramonic,
+  nki,
+  cv,
+  portfolio,
+  premierepro,
+  davinci,
+  capcut,
+  logicpro,
+  sonyalpha,
+  photoshop,
+  lightroom,
+  canva,
+  tiktok,
+  instagram,
+  facebook,
+  notion,
 };

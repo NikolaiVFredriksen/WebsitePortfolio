@@ -46,14 +46,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-black-100 text-[17px] max-w-6xl leading-[30px]"
       >
-        Jeg lager løsninger som fungerer – både for brukerne og for deg som eier
-        prosjektet. Med erfaring i TypeScript, JavaScript, React, Node.js og
-        Three.js bygger jeg apper og nettsteder som er raske, skalerbare og
-        enkle å bruke. Jeg liker å jobbe tett med kunder for å finne ut hva som
-        faktisk trengs, og levere noe som både ser bra ut og holder teknisk.
-        Enten det er et lite prosjekt eller en større applikasjon, sørger jeg
-        for at vi beveger oss raskt fra idé til ferdig løsning – uten unødvendig
-        kompliserte prosesser.
+        Jeg skaper visuelt innhold som treffer – enten det handler om musikk,
+        produkter eller historier fra hverdagen. Stilen min er varm, ærlig og
+        gjennomtenkt, med fokus på flyt, rytme og tilstedeværelse i hvert eneste
+        klipp. Jeg jobber både med egne prosjekter og merkevarer, og liker
+        prosesser der vi utvikler idéer sammen. Målet er alltid det samme: å
+        lage noe som føles ekte, solid og som folk faktisk har lyst til å se –
+        om og om igjen. Uansett om det er korte sosiale videoer,
+        YouTube-innhold, produktfilmer eller kreative mini-dokumentarer, sørger
+        jeg for en produksjon som er effektiv, tydelig og gjennomført fra idé
+        til ferdig video.
       </motion.p>
 
       <div className="sm:!mt-20 flex flex-wrap gap-10 sm:columns-2 ">
