@@ -37,6 +37,7 @@ import {
   instagram,
   facebook,
   notion,
+  morningclarity,
 } from "../assets";
 
 import upwork from "../assets/company/upwork.png";
@@ -301,6 +302,27 @@ const projects = [
     ],
     image: nki,
     source_code_link: "https://vimeo.com/1057032229/6109936082?fl=pl&fe=ti",
+  },
+  {
+    name: "Morgenklarhet",
+    description:
+      "En kortfilm som utforsker stillheten og de små øyeblikkene i en morgenrutine. Videoen kombinerer rolige bilder, subtil lyd og ærlige refleksjoner for å skape en følelse av nærvær og klarhet.",
+    tags: [
+      {
+        name: "atmosfære",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "naturlig lys",
+        color: "green-text-gradient",
+      },
+      {
+        name: "kort-film",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: morningclarity,
+    source_code_link: "https://www.youtube.com/watch?v=lDX6B8E62JA",
   },
 ];
 

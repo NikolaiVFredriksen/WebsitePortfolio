@@ -52,6 +52,7 @@ import tiktok from "./tiktok.png";
 import instagram from "./instagram.png";
 import facebook from "./facebook.png";
 import notion from "./notion.png";
+import morningclarity from "./morningclarity.png";
 
 export {
   logo,
@@ -104,4 +105,5 @@ export {
   instagram,
   facebook,
   notion,
+  morningclarity,
 };

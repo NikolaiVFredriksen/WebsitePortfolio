@@ -85,15 +85,14 @@ const Works = () => {
             />
           ))}
         </div>
-
-        <div className="flex flex-col justify-end items-start min-w-[260px] max-w-xs w-full p-6 ml-8  rounded-2xl ">
-          <span className="text-[#8B3A3A] font-semibold text-lg mb-1">
-            Mer prosjekter kommer...
-          </span>
-          <span className="text-xs text-black-100 opacity-60">
-            Følg med for oppdateringer!
-          </span>
-        </div>
+      </div>
+      <div className="!mt-10 p-6 rounded-2xl  max-w-xs mx-auto">
+        <span className="text-[#8B3A3A] font-semibold text-lg mb-1 block">
+          Mer prosjekter kommer...
+        </span>
+        <span className="text-xs text-black-100 opacity-60 block">
+          Følg med for oppdateringer!
+        </span>
       </div>
     </>
   );
