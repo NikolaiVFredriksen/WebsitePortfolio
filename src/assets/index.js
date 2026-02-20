@@ -53,6 +53,7 @@ import instagram from "./instagram.png";
 import facebook from "./facebook.png";
 import notion from "./notion.png";
 import morningclarity from "./morningclarity.png";
+import dji from "./dji.png";
 
 export {
   logo,
@@ -106,4 +107,5 @@ export {
   facebook,
   notion,
   morningclarity,
+  dji,
 };

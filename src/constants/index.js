@@ -38,6 +38,7 @@ import {
   facebook,
   notion,
   morningclarity,
+  dji,
 } from "../assets";
 
 import upwork from "../assets/company/upwork.png";
@@ -254,6 +255,57 @@ const testimonials = [
 
 const projects = [
   {
+    name: "DJI Mic Mini Review",
+    description:
+      "En kortform-video med tydelig hook, tempo og klar call-to-action. Videoen viser hvordan DJI-mikrofoner fungerer i en musikalsk kontekst. Den har nådd over 85.000 visninger med høyt engasjement.",
+    tags: [
+      {
+        name: "produkt",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "merkevare",
+        color: "green-text-gradient",
+      },
+      {
+        name: "kort-form",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "musikk",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dji,
+    source_code_link:
+      "https://youtube.com/shorts/dqFVB_SWT98?si=je8uKbLVbFWbVyio",
+  },
+  {
+    name: "NKI Nettstudier",
+    description:
+      "En humoristisk og engasjerende reklame for NKI Nettstudier. Videoen kombinerer humor, tempo og enkel, tydelig historiefortelling. Den legger spesielt vekt på stemning, lyd og musikk for å forsterke budskapet.",
+    tags: [
+      {
+        name: "reklame",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "humor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tempo",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "lang-form",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nki,
+    source_code_link: "https://vimeo.com/1057032229/6109936082?fl=pl&fe=ti",
+  },
+  {
     name: "Saramonic Air",
     description:
       "En musikkdrevet, visuelt rolig og ærlig test i samarbeid med Saramonic. Videoen kombinerer gitar, vokal og minimalistiske scener for å skape en ekte og nær opplevelse av hvordan mikrofonene presterer i praksis.",
@@ -278,35 +330,11 @@ const projects = [
     image: saramonic,
     source_code_link: "https://youtube.com/shorts/dPkWXbj4nLg?feature=share",
   },
-  {
-    name: "NKI Nettstudier",
-    description:
-      "En humoristisk ‘faux-reklame’ for NKI Nettstudier. Videoen viser humor, tempo og enkel historiefortelling i et kort og konsist format.",
-    tags: [
-      {
-        name: "reklame",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "humor",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tempo",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "lang-form",
-        color: "green-text-gradient",
-      },
-    ],
-    image: nki,
-    source_code_link: "https://vimeo.com/1057032229/6109936082?fl=pl&fe=ti",
-  },
+
   {
     name: "Morgenklarhet",
     description:
-      "En kortfilm som utforsker stillheten og de små øyeblikkene i en morgenrutine. Videoen kombinerer rolige bilder, subtil lyd og ærlige refleksjoner for å skape en følelse av nærvær og klarhet.",
+      "En kortfilm som utforsker stillheten og de små øyeblikkene i en morgenrutine. Videoen kombinerer rolige bilder, subtil lyd og refleksjoner for å skape en følelse av nærvær og klarhet.",
     tags: [
       {
         name: "atmosfære",
