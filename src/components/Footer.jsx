@@ -1,14 +1,36 @@
-import React from "react";
-
 const Footer = () => {
   return (
-    <div>
-      <footer className="w-full flex justify-center items-center flex-col p-4 bg-tertiary !pt-3 justify-center">
-        <p className="text-white text-sm !pb-1">
-          © 2025 Nikolai Villanueva Fredriksen
-        </p>
-      </footer>
-    </div>
+    <footer className="max-w-4xl mx-auto px-8 sm:px-16 pb-10">
+      <div className="border-t border-[#1a1a1a] pt-8 flex items-center justify-between">
+        <span className="text-[12px] text-[#333]">
+          © {new Date().getFullYear()} Nikolai Villanueva Fredriksen
+        </span>
+        <div className="flex gap-5">
+          <a
+            href="https://github.com/" // update with your GitHub URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nikolai-fredriksen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="mailto:din@epost.no" // update with your email
+            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
+          >
+            mail
+          </a>
+        </div>
+      </div>
+    </footer>
   );
 };
 

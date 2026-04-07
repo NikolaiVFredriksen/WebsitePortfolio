@@ -1,81 +1,44 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <nav className="padding-x w-full flex items-center py-5 fixed h-15 top-0 z-20 bg-tertiary">
-      <div className="w-full flex justify-between items-center  mx-auto">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-[#111111]/90 backdrop-blur-sm border-b border-white/5"
+          : "bg-transparent"
+      }`}
+    >
+      <div className="max-w-12xl mx-auto px-8 sm:px-16 h-14 flex items-center justify-between">
         <Link
           to="/"
-          className="flex items-center gap-3"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="text-[13px] text-[#e8e5e0] font-medium tracking-tight hover:text-white transition-colors"
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="w-10 h-10 object-contain border-1 rounded-sm"
-          />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Nikolai Villanueva Fredriksen{" "}
-          </p>
+          NVF
         </Link>
-        <div className="flex items-center gap-10"></div>
-        <ul className="list-none hidden sm:flex flex-row gap-10 flex justify-items-end">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              }
-              hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => {
-                setActive(link.title);
-              }}
-            >
-              <a href={`#${link.id}`}>{link.title}</a>
-            </li>
-          ))}
-        </ul>
-
-        <div>
-          <div className="sm:hidden flex flex-1 justify-end items-center">
-            <img
-              src={toggle ? close : menu}
-              alt="menu"
-              className="w-[28px] h-[28px] object-contain cursor-pointer"
-              onClick={() => setToggle(!toggle)}
-            />
-
-            <div
-              className={`${
-                !toggle ? "hidden" : "flex"
-              } !p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-            >
-              <ul className="list-none flex justify-end items-start flex-col gap-4">
-                {navLinks.map((link) => (
-                  <li
-                    key={link.id}
-                    className={`${
-                      active === link.title ? "text-white" : "text-secondary"
-                    }
-                    font-poppins font-medium cursor-pointer text-[16px]`}
-                    onClick={() => {
-                      setToggle(!toggle);
-                      setActive(link.title);
-                    }}
-                  >
-                    <a href={`#${link.id}`}>{link.title}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+        <div className="flex items-center gap-6">
+          <a
+            href="#projects"
+            className="text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
+          >
+            projects
+          </a>
+          <a
+            href="#about"
+            className="text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
+          >
+            about
+          </a>
         </div>
       </div>
     </nav>

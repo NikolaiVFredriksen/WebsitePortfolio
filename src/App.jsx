@@ -1,33 +1,20 @@
 import { BrowserRouter } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Footer,
-  Hero,
-  Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
-} from "./components";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary overflow-x-hidden">
-        <div className="bg-[#F6F0E9] bg-cover bg-no-repeat bg-center">
-          <Navbar />
+      <div className="min-h-screen bg-[#111111] text-[#e8e5e0] overflow-x-hidden">
+        <Navbar />
+        <main className="max-w-12xl mx-auto px-8 sm:px-16 pb-24">
           <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+          <Projects />
+          <About />
+        </main>
         <Footer />
       </div>
     </BrowserRouter>
