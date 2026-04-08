@@ -10,6 +10,16 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    window.scrollTo({
+      top: el.offsetTop - 60,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -29,14 +39,14 @@ const Navbar = () => {
         </Link>
         <div className="flex items-center gap-6">
           <a
-            href="#projects"
-            className="text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
+            onClick={() => scrollToSection("projects")}
+            className="cursor-pointer text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
           >
             projects
           </a>
           <a
-            href="#about"
-            className="text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
+            onClick={() => scrollToSection("about")}
+            className="cursor-pointer text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
           >
             about
           </a>
