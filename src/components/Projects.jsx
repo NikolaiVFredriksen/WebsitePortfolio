@@ -1,15 +1,15 @@
 // Add your project screenshots to src/assets/ and import them here
-// import oscarsImg from "../assets/oscars-screenshot.png";
+import oscarsImg from "../assets/oscarscompanion.png";
 
 const projects = [
   {
     name: "OscarsCompanion",
-    year: "2025",
+    year: "2026",
     description:
-      "An Oscar night companion app — live ballot tracking, predictions, and real-time results as the ceremony unfolds.",
-    tags: ["React", "Vite", "Claude API"],
-    url: "https://oscarscompanion.com", // update with your real URL
-    image: null, // replace with oscarsImg once you have a screenshot
+      "A full-stack companion app for the 2026 Oscar nominations. Browse all 15 categories with live TMDB data, mark films as seen, build a watchlist, and track your progress with per-category stats. Sign in with Google to sync across devices.",
+    tags: ["React", "Tailwind CSS", "TMDB API", "Appwrite", "Vercel"],
+    url: "https://movie-app-git-main-zillacoops-projects.vercel.app/",
+    image: oscarsImg,
   },
   // Add more projects here as you build them:
   // {
@@ -90,7 +90,8 @@ const ProjectCard = ({ project }) => {
             ))}
           </div>
           <span className="text-[12px] text-[#444] flex items-center gap-1.5 group-hover:text-[#666] transition-colors shrink-0 ml-3">
-            {new URL(project.url).hostname}
+            {/* {new URL(project.url).hostname} */}
+            Live Demo
             <ArrowIcon />
           </span>
         </div>

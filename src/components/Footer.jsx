@@ -7,7 +7,7 @@ const Footer = () => {
         </span>
         <div className="flex gap-5">
           <a
-            href="https://github.com/" // update with your GitHub URL
+            href="https://github.com/NikolaiVFredriksen"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
@@ -23,7 +23,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="mailto:din@epost.no" // update with your email
+            href="mailto:nikolaifredriksen5@gmail.com"
             className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
           >
             mail
