@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => {
       href={project.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block rounded-2xl overflow-hidden border border-[#1e1e1e] bg-[#161616] hover:border-[#2e2e2e] transition-colors duration-200"
+      className="group block rounded-2xl overflow-hidden border border-[#1e1e1e] bg-[#161616] hover:border-[#2e2e2e] transition-all duration-200 hover:-translate-y-1"
     >
       {/* Image area */}
       <div className="aspect-[16/9] w-full overflow-hidden bg-[#1a1a1a]">
@@ -101,11 +101,11 @@ const ProjectCard = ({ project }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pb-16">
+    <section id="projects" className="pb-24">
       <p className="text-[11px] text-[#383838] tracking-[0.1em] uppercase mb-6">
         selected work
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}

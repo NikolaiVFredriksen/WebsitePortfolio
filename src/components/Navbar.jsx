@@ -18,7 +18,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-12xl mx-auto px-8 sm:px-16 h-14 flex items-center justify-between">
+      <div className="max-w-[1100px] mx-auto px-6 sm:px-10 h-16 flex items-center justify-between">
         <Link
           to="/"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

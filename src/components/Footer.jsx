@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="max-w-4xl mx-auto px-8 sm:px-16 pb-10">
+    <footer className="max-w-[1100px] mx-auto px-6 sm:px-10 pb-12">
       <div className="border-t border-[#1a1a1a] pt-8 flex items-center justify-between">
         <span className="text-[12px] text-[#333]">
           © {new Date().getFullYear()} Nikolai Villanueva Fredriksen
