@@ -4,7 +4,7 @@ import headshot from "/headshot.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="pt-16 pb-28 border-t border-[#1a1a1a]">
+    <section id="about" className="pt-8 border-t border-[#1a1a1a]">
       <p className="text-[11px] text-[#383838] tracking-[0.1em] uppercase mb-6">
         about
       </p>
@@ -19,7 +19,7 @@ const About = () => {
             Nikolai Villanueva Fredriksen
           </h3>
           <p className="mt-2 text-[13px] text-[#555] leading-relaxed max-w-[440px]">
-            Building things on the web. Oslo-based.
+            Building things for the web. Oslo-based.
           </p>
         </div>
       </div>

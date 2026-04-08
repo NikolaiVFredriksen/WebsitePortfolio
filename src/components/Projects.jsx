@@ -63,7 +63,7 @@ const ProjectCard = ({ project }) => {
       </div>
 
       {/* Info area */}
-      <div className="p-5">
+      <div className="p-4">
         <div className="flex items-start justify-between">
           <div>
             <h3 className="text-[15px] font-medium text-[#e8e5e0] tracking-tight">
@@ -78,7 +78,7 @@ const ProjectCard = ({ project }) => {
           </span>
         </div>
 
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-3 flex items-center justify-between">
           <div className="flex gap-2 flex-wrap">
             {project.tags.map((tag) => (
               <span
@@ -101,11 +101,11 @@ const ProjectCard = ({ project }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pb-24">
+    <section id="projects" className="pb-16">
       <p className="text-[11px] text-[#383838] tracking-[0.1em] uppercase mb-6">
         selected work
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}

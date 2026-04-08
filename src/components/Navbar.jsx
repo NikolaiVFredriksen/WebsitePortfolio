@@ -18,13 +18,14 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1100px] mx-auto px-6 sm:px-10 h-16 flex items-center justify-between">
+      <div className="max-w-[1100px] mx-auto px-6 sm:px-10 h-14 flex items-center justify-between">
         <Link
           to="/"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="text-[13px] text-[#e8e5e0] font-medium tracking-tight hover:text-white transition-colors"
         >
-          NVF
+          NVF |{" "}
+          <span className="font-semibold">Nikolai Villanueva Fredriksen</span>
         </Link>
         <div className="flex items-center gap-6">
           <a
