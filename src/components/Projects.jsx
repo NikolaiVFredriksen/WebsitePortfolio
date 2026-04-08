@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => {
       href={project.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block rounded-2xl overflow-hidden border border-[#1e1e1e] bg-[#161616] hover:border-[#2e2e2e] transition-colors duration-200"
+      className="group block rounded-2xl overflow-hidden border border-[#1e1e1e] bg-[#161616] hover:border-[#2e2e2e] transition-all duration-200 hover:-translate-y-1"
     >
       {/* Image area */}
       <div className="aspect-[16/9] w-full overflow-hidden bg-[#1a1a1a]">
@@ -63,7 +63,7 @@ const ProjectCard = ({ project }) => {
       </div>
 
       {/* Info area */}
-      <div className="p-5">
+      <div className="p-4">
         <div className="flex items-start justify-between">
           <div>
             <h3 className="text-[15px] font-medium text-[#e8e5e0] tracking-tight">
@@ -78,7 +78,7 @@ const ProjectCard = ({ project }) => {
           </span>
         </div>
 
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-3 flex items-center justify-between">
           <div className="flex gap-2 flex-wrap">
             {project.tags.map((tag) => (
               <span

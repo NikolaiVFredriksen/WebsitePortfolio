@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <div className="min-h-screen bg-[#111111] text-[#e8e5e0] overflow-x-hidden">
         <Navbar />
-        <main className="max-w-12xl mx-auto px-8 sm:px-16 pb-24">
+        <main className="max-w-[1100px] mx-auto px-6 sm:px-10 pb-6">
           <Hero />
           <Projects />
           <About />
