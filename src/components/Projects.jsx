@@ -1,4 +1,3 @@
-// Add your project screenshots to src/assets/ and import them here
 import oscarsImg from "../assets/oscarscompanion.png";
 
 const projects = [
@@ -11,15 +10,6 @@ const projects = [
     url: "https://movie-app-git-main-zillacoops-projects.vercel.app/",
     image: oscarsImg,
   },
-  // Add more projects here as you build them:
-  // {
-  //   name: "Next Project",
-  //   year: "2025",
-  //   description: "...",
-  //   tags: ["React"],
-  //   url: "https://...",
-  //   image: null,
-  // },
 ];
 
 const ArrowIcon = () => (
@@ -43,10 +33,22 @@ const ProjectCard = ({ project }) => {
       href={project.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block rounded-2xl overflow-hidden border border-[#1e1e1e] bg-[#161616] hover:border-[#2e2e2e] transition-all duration-200 hover:-translate-y-1"
+      className="group block rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1"
+      style={{
+        border: "1px solid var(--border)",
+        background: "var(--bg-secondary)",
+      }}
+      onMouseEnter={(e) =>
+        (e.currentTarget.style.borderColor = "var(--border-hover)")
+      }
+      onMouseLeave={(e) =>
+        (e.currentTarget.style.borderColor = "var(--border)")
+      }
     >
-      {/* Image area */}
-      <div className="aspect-[16/9] w-full overflow-hidden bg-[#1a1a1a]">
+      <div
+        className="aspect-[16/9] w-full overflow-hidden"
+        style={{ background: "var(--bg-card)" }}
+      >
         {project.image ? (
           <img
             src={project.image}
@@ -55,25 +57,36 @@ const ProjectCard = ({ project }) => {
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">
-            <span className="text-[11px] text-[#2e2e2e] tracking-widest uppercase">
+            <span
+              className="text-[11px] tracking-widest uppercase"
+              style={{ color: "var(--border-hover)" }}
+            >
               screenshot
             </span>
           </div>
         )}
       </div>
 
-      {/* Info area */}
       <div className="p-4">
         <div className="flex items-start justify-between">
           <div>
-            <h3 className="text-[15px] font-medium text-[#e8e5e0] tracking-tight">
+            <h3
+              className="text-[15px] font-medium tracking-tight"
+              style={{ color: "var(--text-primary)" }}
+            >
               {project.name}
             </h3>
-            <p className="mt-2 text-[13px] text-[#666] leading-relaxed">
+            <p
+              className="mt-2 text-[13px] leading-relaxed"
+              style={{ color: "var(--text-muted)" }}
+            >
               {project.description}
             </p>
           </div>
-          <span className="text-[12px] text-[#383838] ml-4 shrink-0">
+          <span
+            className="text-[12px] ml-4 shrink-0"
+            style={{ color: "var(--text-label)" }}
+          >
             {project.year}
           </span>
         </div>
@@ -83,14 +96,21 @@ const ProjectCard = ({ project }) => {
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="text-[11px] px-2 py-1 rounded-md bg-[#1e1e1e] border border-[#252525] text-[#4a4a4a]"
+                className="text-[11px] px-2 py-1 rounded-md"
+                style={{
+                  background: "var(--border)",
+                  border: "1px solid #252525",
+                  color: "var(--text-faint)",
+                }}
               >
                 {tag}
               </span>
             ))}
           </div>
-          <span className="text-[12px] text-[#444] flex items-center gap-1.5 group-hover:text-[#666] transition-colors shrink-0 ml-3">
-            {/* {new URL(project.url).hostname} */}
+          <span
+            className="text-[12px] flex items-center gap-1.5 group-hover:text-[var(--text-muted)] transition-colors shrink-0 ml-3"
+            style={{ color: "var(--text-label)" }}
+          >
             Live Demo
             <ArrowIcon />
           </span>
@@ -103,7 +123,10 @@ const ProjectCard = ({ project }) => {
 const Projects = () => {
   return (
     <section id="projects" className="pb-16">
-      <p className="text-[11px] text-[#383838] tracking-[0.1em] uppercase mb-6">
+      <p
+        className="text-[11px] tracking-[0.1em] uppercase mb-6"
+        style={{ color: "var(--text-label)" }}
+      >
         selected work
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -111,9 +134,6 @@ const Projects = () => {
           <ProjectCard key={project.name} project={project} />
         ))}
       </div>
-      {/* <p className="text-[11px] text-[white] tracking-[0.1em] mt-6 mb-6">
-        Open to frontend opportunities in Oslo.
-      </p> */}
     </section>
   );
 };
