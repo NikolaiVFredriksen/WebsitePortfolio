@@ -111,6 +111,9 @@ const Projects = () => {
           <ProjectCard key={project.name} project={project} />
         ))}
       </div>
+      {/* <p className="text-[11px] text-[white] tracking-[0.1em] mt-6 mb-6">
+        Open to frontend opportunities in Oslo.
+      </p> */}
     </section>
   );
 };

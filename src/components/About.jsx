@@ -18,9 +18,18 @@ const About = () => {
           <h3 className="text-[14px] font-medium text-[#e8e5e0] tracking-tight">
             Nikolai Villanueva Fredriksen
           </h3>
-          <p className="mt-2 text-[13px] text-[#555] leading-relaxed max-w-[440px]">
-            Building things for the web. Oslo-based.
-          </p>
+          <div className="mt-2 max-w-[440px] space-y-3">
+            <p className="text-[13px] text-[#555] leading-relaxed">
+              I build digital products with a focus on interaction, clarity, and
+              detail. I enjoy working closely with users and turning real needs
+              into simple, well-crafted solutions — from idea to implementation.
+            </p>
+
+            <p className="text-[13px] text-[#555] leading-relaxed">
+              Experienced with React and modern JavaScript, and comfortable
+              working across the stack when needed.
+            </p>
+          </div>
         </div>
       </div>
     </section>
