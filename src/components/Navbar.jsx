@@ -45,6 +45,12 @@ const Navbar = () => {
             projects
           </a>
           <a
+            onClick={() => scrollToSection("experience")}
+            className="cursor-pointer text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
+          >
+            experience
+          </a>
+          <a
             onClick={() => scrollToSection("about")}
             className="cursor-pointer text-[13px] text-[#555] hover:text-[#e8e5e0] transition-colors"
           >
