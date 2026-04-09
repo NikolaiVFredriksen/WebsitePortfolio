@@ -1,33 +1,39 @@
 const Footer = () => {
   return (
     <footer className="max-w-[1100px] mx-auto px-6 sm:px-10 pb-8">
-      <div className="border-t border-[#1a1a1a] pt-8 flex items-center justify-between">
-        <span className="text-[12px] text-[#333]">
+      <div
+        className="pt-8 flex items-center justify-between"
+        style={{ borderTop: "1px solid var(--border)" }}
+      >
+        <span className="text-[12px]" style={{ color: "var(--text-faint)" }}>
           © {new Date().getFullYear()} Nikolai Villanueva Fredriksen
         </span>
         <div className="flex gap-5">
-          <a
-            href="https://github.com/NikolaiVFredriksen"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nikolai-fredriksen/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="mailto:nikolaifredriksen5@gmail.com"
-            className="text-[12px] text-[#444] hover:text-[#888] transition-colors"
-          >
-            mail
-          </a>
+          {[
+            { label: "GitHub", href: "https://github.com/NikolaiVFredriksen" },
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/in/nikolai-fredriksen/",
+            },
+            { label: "mail", href: "mailto:nikolaifredriksen5@gmail.com" },
+          ].map(({ label, href }) => (
+            <a
+              key={label}
+              href={href}
+              target={label !== "mail" ? "_blank" : undefined}
+              rel={label !== "mail" ? "noopener noreferrer" : undefined}
+              className="text-[12px] transition-colors"
+              style={{ color: "var(--text-faint)" }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.color = "var(--text-muted)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.color = "var(--text-faint)")
+              }
+            >
+              {label}
+            </a>
+          ))}
         </div>
       </div>
     </footer>
