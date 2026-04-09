@@ -24,7 +24,7 @@ const experiences = [
     company: "Experis Academy",
     date: "Aug 2023 — Nov 2023",
     points: [
-      "12-week intensive fullstack program covering .NET/C#, ASP.NET Core, databases, cloud, JavaScript, React, and Angular",
+      "Worked with .NET/C#, ASP.NET Core, databases, cloud, JavaScript, React, and Angular",
       "Built complete solutions across database to deployment in case assignments",
       "Gained insight into the consultant role through real client cases",
     ],
