@@ -4,7 +4,7 @@ const experiences = [
     company: "YouTube",
     date: "Jan 2025 — Present",
     points: [
-      "Produces visually considered videos focused on music, rhythm, and storytelling",
+      "Produces visually considered videos focused on music and storytelling",
       "Handles all production independently — from concept to final publish",
       "Developing a personal visual style inspired by documentary and everyday film",
     ],
@@ -34,7 +34,7 @@ const experiences = [
     company: "InXight AS",
     date: "Jan 2023 — May 2023",
     points: [
-      "Developed a visual business management tool as part of bachelor project",
+      "Developed a visual business management tool based on Visma's PlanDisc model",
       "Worked on both frontend and backend in a team of three",
       "Experience contributing in a professional development environment",
     ],
