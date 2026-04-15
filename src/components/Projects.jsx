@@ -20,7 +20,6 @@ const projects = [
     url: "https://looply-sigma.vercel.app/",
     image: looplyImg,
   },
-];
 
 const ArrowIcon = () => (
   <svg
