@@ -1,4 +1,5 @@
 import oscarsImg from "../assets/oscarscompanion.png";
+import looplyImg from "../assets/looply.png";
 
 const projects = [
   {
@@ -10,7 +11,16 @@ const projects = [
     url: "https://movie-app-git-main-zillacoops-projects.vercel.app/",
     image: oscarsImg,
   },
-];
+  {
+    name: "Looply",
+    year: "2026",
+    description:
+      "A mindful PWA for the things you keep putting off. Not your grocery list — the harder stuff. The conversation you're avoiding, the decision you keep postponing. Add it, close it when you're ready, or consciously let it go.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+    url: "https://looply-sigma.vercel.app/",
+    image: looplyImg,
+  },
+  ];
 
 const ArrowIcon = () => (
   <svg
