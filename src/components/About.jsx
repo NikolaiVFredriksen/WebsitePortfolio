@@ -31,17 +31,22 @@ const About = () => {
               className="text-[13px] leading-relaxed"
               style={{ color: "var(--text-muted)" }}
             >
-              I build digital products with a focus on interaction, clarity, and
-              detail. I enjoy working closely with users and turning real needs
-              into simple, well-crafted solutions — from idea to implementation.
+              I'm a developer with a sharp eye for design and a strong sense
+              that what's built should feel as considered as it looks. I take an
+              idea all the way — from concept to finished product — and I do my
+              best work alongside people who care just as much.
             </p>
-            <p
-              className="text-[13px] leading-relaxed"
-              style={{ color: "var(--text-muted)" }}
-            >
-              Experienced with React and modern JavaScript, and comfortable
-              working across the stack when needed.
-            </p>
+            <div className="flex gap-4 pt-1">
+              <a
+                href="https://www.linkedin.com/in/nikolai-fredriksen/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[12px] transition-opacity opacity-60 hover:opacity-100"
+                style={{ color: "var(--text-muted)" }}
+              >
+                LinkedIn →
+              </a>
+            </div>
           </div>
         </div>
       </div>

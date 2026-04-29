@@ -1,52 +1,44 @@
 const experiences = [
   {
-    title: "YouTube Creator",
-    company: "YouTube",
-    date: "Jan 2025 — Present",
+    title: "Independent Developer",
+    company: "Freelance",
+    date: "Mar 2024 — Present",
     points: [
-      "Produces visually considered videos focused on music and storytelling",
-      "Handles all production independently — from concept to final publish",
-      "Developing a personal visual style inspired by documentary and everyday film",
+      "Developing modern frontend and fullstack web solutions, with a focus on detail and user experience",
+      "Focused on building polished, user-centered products from concept to deployment",
     ],
   },
   {
-    title: "Freelance",
+    title: "UX Writer",
+    company: "Proxify",
+    date: "Nov 2023 — Mar 2024",
+    points: [
+      "Prepared Proxify.io for Norwegian launch — UX writing, onboarding flow and interface content",
+    ],
+  },
+  {
+    title: "Freelancer",
     company: "Upwork",
-    date: "Jul 2022 — Present",
+    date: "Jun 2022 — Mar 2024",
     points: [
-      "Delivers services in photo/video editing, translation, and music production",
-      "Contributed to the Norwegian launch of Proxify.io",
-      "Built long-term client relationships through reliability and clear communication",
+      "Freelancer on Upwork with projects in web development, localization and UX writing",
     ],
   },
   {
-    title: "Fullstack Developer",
+    title: "Fullstack .NET Developer",
     company: "Experis Academy",
     date: "Aug 2023 — Nov 2023",
     points: [
-      "Worked with .NET/C#, ASP.NET Core, databases, cloud, JavaScript, React, and Angular",
-      "Built complete solutions across database to deployment in case assignments",
-      "Gained insight into the consultant role through real client cases",
+      "Hired as a consultant through a selective training program for new IT graduates",
+      "Developed object-oriented applications in C# with a focus on data modeling, REST API design, automated testing, and deployment with Docker and Azure",
     ],
   },
   {
     title: "Fullstack Developer",
     company: "InXight AS",
-    date: "Jan 2023 — May 2023",
+    date: "Jan 2023 — Jun 2023",
     points: [
-      "Developed a visual business management tool based on Visma's PlanDisc model",
-      "Worked on both frontend and backend in a team of three",
-      "Experience contributing in a professional development environment",
-    ],
-  },
-  {
-    title: "Bachelor, Frontend & Mobile Development",
-    company: "Høyskolen Kristiania",
-    date: "Aug 2020 — Jun 2023",
-    points: [
-      "React, Swift, Kotlin/Java, databases, and cloud solutions",
-      "Strong focus on interaction design and responsive, user-friendly interfaces",
-      "Agile workflows, team collaboration, and professional development tools",
+      "Developed an interactive annual wheel for Strategy Orchestrator (SaaS) — used daily by Avinor",
     ],
   },
 ];
