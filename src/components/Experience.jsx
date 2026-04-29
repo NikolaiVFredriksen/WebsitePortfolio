@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "Independent Developer",
     company: "Freelance",
-    date: "Nov 2023 — Present",
+    date: "Mar 2024 — Present",
     points: [
       "Developing modern frontend and fullstack web solutions, with a focus on thoughtful UX and modern technology",
       "Focused on building polished, user-centered products from concept to deployment",
