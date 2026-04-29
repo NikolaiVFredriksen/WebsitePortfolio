@@ -4,7 +4,7 @@ const experiences = [
     company: "Freelance",
     date: "Mar 2024 — Present",
     points: [
-      "Developing modern frontend and fullstack web solutions, with a focus on thoughtful UX and modern technology",
+      "Developing modern frontend and fullstack web solutions, with a focus on detail and user experience",
       "Focused on building polished, user-centered products from concept to deployment",
     ],
   },
