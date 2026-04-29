@@ -8,7 +8,7 @@ const projects = [
     description:
       "A full-stack companion app for the 2026 Oscar nominations. Browse all 15 categories with live TMDB data, mark films as seen, build a watchlist, and track your progress with per-category stats. Sign in with Google to sync across devices.",
     tags: ["React", "Tailwind CSS", "TMDB API", "Appwrite", "Vercel"],
-    url: "https://movie-app-git-main-zillacoops-projects.vercel.app/",
+    url: "https://www.oscarscompanion.com/",
     github: "https://github.com/NikolaiVFredriksen/MovieApp",
     image: oscarsImg,
   },
