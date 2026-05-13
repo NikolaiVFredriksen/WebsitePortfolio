@@ -1,6 +1,6 @@
 const experiences = [
   {
-    title: "Independent Developer",
+    title: "Fullstack Developer",
     company: "Freelance",
     date: "Mar 2024 — Present",
     points: [
