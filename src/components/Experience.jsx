@@ -1,11 +1,21 @@
 const experiences = [
   {
     title: "Fullstack Developer",
-    company: "Freelance",
-    date: "Mar 2024 — Present",
+    company: "Glasspaper Academy",
+    date: "May 2026 — Oct 2026",
     points: [
-      "Developing modern frontend and fullstack web solutions, with a focus on detail and user experience",
-      "Focused on building polished, user-centered products from concept to deployment",
+      "Intensive 20-week fullstack program covering React, .NET, Azure and AI development",
+      "Building a fullstack marketplace app with Next.js, C# and ASP.NET Core — with AI integration via OpenAI",
+      "Working towards Azure AI Apps and Agents Developer Associate (AI-103)",
+    ],
+  },
+  {
+    title: "Career Break",
+    company: "Travel + Skill Refresh",
+    date: "Mar 2024 — May 2026",
+    points: [
+      "Four months travelling South America",
+      "Returned Dec 2025 — refreshed technical skills and prepared for Glasspaper Academy",
     ],
   },
   {
@@ -14,14 +24,6 @@ const experiences = [
     date: "Nov 2023 — Mar 2024",
     points: [
       "Prepared Proxify.io for Norwegian launch — UX writing, onboarding flow and interface content",
-    ],
-  },
-  {
-    title: "Freelancer",
-    company: "Upwork",
-    date: "Jun 2022 — Mar 2024",
-    points: [
-      "Freelancer on Upwork with projects in web development, localization and UX writing",
     ],
   },
   {

@@ -31,10 +31,10 @@ const About = () => {
               className="text-[13px] leading-relaxed"
               style={{ color: "var(--text-muted)" }}
             >
-              I'm a developer with a sharp eye for design and a strong sense
-              that what's built should feel as considered as it looks. I take an
-              idea all the way — from concept to finished product — and I do my
-              best work alongside people who care just as much.
+              I care about how things feel to use, not just how they look. My
+              work tends to go all the way in: from architecture to the small
+              things most developers leave to chance. I build best alongside
+              people who take quality personally.
             </p>
             <div className="flex gap-4 pt-1">
               <a
