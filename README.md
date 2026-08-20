@@ -1,12 +1,60 @@
-# React + Vite
+# Portfolio Website — Nikolai Villanueva Fredriksen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio preview](public/coverimage.png)
 
-Currently, two official plugins are available:
+Personal developer portfolio built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React 19** + **Vite 7**
+- **Tailwind CSS v4**
+- **Framer Motion** — page and component animations
+- **React Three Fiber** + **Three.js** — 3D elements
+- **React Router DOM v7** — client-side routing
+- **EmailJS** — contact form without a backend
+- **React Vertical Timeline Component** — experience/timeline section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/NikolaiVFredriksen/WebsitePortfolio.git
+cd WebsitePortfolio
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+The app runs on `http://localhost:5173` by default.
+
+## Scripts
+
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start local dev server with HMR      |
+| `npm run build`   | Production build to `dist/`          |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint`    | Run ESLint                           |
+
+## Project Structure
+
+```
+src/
+├── assets/          # Images, icons, 3D models
+├── components/      # Reusable UI components
+├── constants/       # Content data (projects, experience, etc.)
+├── hoc/             # Higher-order components
+├── utils/           # Helper functions
+└── App.jsx          # Root component and routing
+```
+
+## Deployment
+
+Deployed on **Vercel**. Push to `main` triggers a new deployment automatically.
+
+## Contact
+
+Built and maintained by Nikolai Villanueva Fredriksen.

@@ -11,8 +11,8 @@ const Hero = () => {
         className="mt-4 text-[14px] leading-relaxed max-w-[680px]"
         style={{ color: "var(--text-muted)" }}
       >
-        Building well-crafted web applications with React, Next.js and
-        TypeScript.
+        Building well-crafted, AI-integrated web applications with React,
+        Next.js, TypeScript and .NET
       </p>
     </section>
   );
